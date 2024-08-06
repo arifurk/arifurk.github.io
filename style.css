@@ -9,3 +9,10 @@ h1 {
   margin-top: 2rem;
   text-align: center;
 }
+
+[data-bs-theme="light"].carousel .carousel-control-prev-icon,
+[data-bs-theme="light"].carousel .carousel-control-next-icon,
+[data-bs-theme="light"].carousel .carousel-control-prev-icon,
+[data-bs-theme="light"].carousel .carousel-control-next-icon {
+  filter: none;
+}
