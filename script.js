@@ -49,7 +49,7 @@ function themeClick() {
 button.addEventListener('click', themeClick)
 
 function setTheme() {
-    if (localStorage.getItem('darkMode') == 'enabled') {
+    if (localStorage.getItem('darkMode') == 'enabled' || localStorage.getItem('darkMode') == null) {
         colorBlack()
     } else {
         colorWhite()
